@@ -1,0 +1,59 @@
+{
+  "upstreamBase": "1cd83a2ac70146649235870c4446cc05896e28c8",
+  "environment": {
+    "os": "macOS 27.0.0",
+    "architecture": "arm64",
+    "node": "22.23.4",
+    "electronDependency": "43.8.3"
+  },
+  "planningPrompt": {
+    "pullRequest": "https://github.com/FaqFirebase/pi-desktop/pull/113",
+    "sourceCommit": "3292754df3d99c2ecb48640e29e13424ac2843a9",
+    "checks": {
+      "npm run typecheck": "PASS",
+      "npm run lint": "PASS",
+      "npm run build": "PASS"
+    },
+    "fullSrcAndResourcesTestSuite": {
+      "runner": "tsx --test with all src/resources *.test.ts files",
+      "tests": 2019,
+      "passed": 2019,
+      "failed": 0,
+      "skipped": 0,
+      "cancelled": 0
+    },
+    "runtimeSmoke": "Actual shared planning helper preserved a multiline user request verbatim after the shared sentinel. The smoke used delimiter projection, not a call to the unexported production preamble stripper."
+  },
+  "backgroundSessionViews": {
+    "pullRequest": "https://github.com/FaqFirebase/pi-desktop/pull/114",
+    "sourceCommit": "e1f142a6e2ff2fe2adb78bd808b95e47092f81dd",
+    "checks": {
+      "npm run typecheck": "PASS",
+      "npm run lint": "PASS",
+      "npm run build": "PASS"
+    },
+    "fullSrcAndResourcesTestSuite": {
+      "runner": "tsx --test with all src/resources *.test.ts files",
+      "tests": 2055,
+      "passed": 2055,
+      "failed": 0,
+      "skipped": 0,
+      "cancelled": 0
+    },
+    "runtimeSmokes": [
+      "Actual WorkspaceManager: passive saved-history allocation returns stopped/null-PID runtime without spawning, evicting a live runtime or moving the main active selection.",
+      "Actual WorkspaceManager and event router over a controlled two-process IPC pipe: a blocking dialog reaches its owner, answers return to the originating process, and the next queued dialog is promoted.",
+      "An expired delivered dialog no longer strands the queued replacement, for main and secondary views.",
+      "Declining exact-runtime navigation preserves the retained session's in-flight history load.",
+      "A stale activation cannot override other navigation performed while its confirmation is pending.",
+      "A newer activation intent takes precedence across an awaited workspace switch."
+    ],
+    "regressionEvidence": "The expiry, declined-history and stale-navigation defects were reproduced before their corresponding corrections; before/after logs are included alongside this manifest."
+  },
+  "limits": [
+    "The prerequisite allocation and handoff smokes exercise real modules across controlled process/IPC boundaries, not native Electron focus or modal timing.",
+    "Renderer-store tests use the existing stubbed preload bridge. They are not presented as native UI evidence.",
+    "These independent prerequisite branches contain no Quick Chat window, renderer, global shortcut or feature translations.",
+    "Dependency setup reused local installed packages. A local full native rebuild encountered a macOS SDK/linker incompatibility; successful checks do not claim a successful fresh native dependency build."
+  ]
+}
