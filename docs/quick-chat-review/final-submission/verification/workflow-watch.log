@@ -1,0 +1,1317 @@
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push less than a minute ago
+
+JOBS
+* Linux X11 Native Validation (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux X11 Native Validation Harness
+  * Upload Linux X11 Validation Artifacts
+  * Validate Linux X11 Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push less than a minute ago
+
+JOBS
+* Linux X11 Native Validation (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux X11 Native Validation Harness
+  * Upload Linux X11 Validation Artifacts
+  * Validate Linux X11 Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push less than a minute ago
+
+JOBS
+* Linux X11 Native Validation (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux X11 Native Validation Harness
+  * Upload Linux X11 Validation Artifacts
+  * Validate Linux X11 Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push less than a minute ago
+
+JOBS
+* Linux X11 Native Validation (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux X11 Native Validation Harness
+  * Upload Linux X11 Validation Artifacts
+  * Validate Linux X11 Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push less than a minute ago
+
+JOBS
+* Linux X11 Native Validation (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  * Build renderer/main/preload
+  * Run Linux X11 Native Validation Harness
+  * Upload Linux X11 Validation Artifacts
+  * Validate Linux X11 Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+* Linux X11 Native Validation (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  * Run Linux X11 Native Validation Harness
+  * Upload Linux X11 Validation Artifacts
+  * Validate Linux X11 Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+* Linux X11 Native Validation (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  * Upload Linux X11 Validation Artifacts
+  * Validate Linux X11 Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  * Build renderer/main/preload
+  * Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  * Build renderer/main/preload
+  * Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Linux Wayland Native Validation (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  * Upload Linux Wayland Validation Artifacts
+  * Validate Linux Wayland Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 1 minute ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  * Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install dependencies
+  * Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 2 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 3 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 3 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  * Run Windows Native Validation Harness
+  * Upload Windows Validation Artifacts
+  * Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 3 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Windows Native Validation Harness
+  ✓ Upload Windows Validation Artifacts
+  ✓ Validate Windows Report Acceptance
+  * Post Set up Node.js
+  * Post Checkout candidate commit
+Refreshing run status every 3 seconds. Press Ctrl+C to quit.
+
+* qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 3 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+* Windows Native Validation (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Windows Native Validation Harness
+  ✓ Upload Windows Validation Artifacts
+  ✓ Validate Windows Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ qc-verify/maintainer-rewrite Quick Chat Native Platform Validation · 40329664111
+Triggered via push about 3 minutes ago
+
+JOBS
+✓ Linux X11 Native Validation in 1m10s (ID 121595415371)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install X11 WM, injection tools, and Electron dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux X11 Native Validation Harness
+  ✓ Upload Linux X11 Validation Artifacts
+  ✓ Validate Linux X11 Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Linux Wayland Native Validation in 1m23s (ID 121595415734)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Linux Wayland Native Validation Harness
+  ✓ Upload Linux Wayland Validation Artifacts
+  ✓ Validate Linux Wayland Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job
+✓ Windows Native Validation in 3m14s (ID 121595416287)
+  ✓ Set up job
+  ✓ Checkout candidate commit
+  ✓ Set up Node.js
+  ✓ Install dependencies
+  ✓ Build renderer/main/preload
+  ✓ Run Windows Native Validation Harness
+  ✓ Upload Windows Validation Artifacts
+  ✓ Validate Windows Report Acceptance
+  ✓ Post Set up Node.js
+  ✓ Post Checkout candidate commit
+  ✓ Complete job

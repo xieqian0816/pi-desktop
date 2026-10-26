@@ -1,0 +1,136 @@
+sandbox_extension_issue_file_to_process failed for /tmp/pi-qc-submit.tlop0q/feature/node_modules/electron/dist/Electron.app: 1 (Operation not permitted)
+=================================================================
+[HARNESS] Pi Desktop Quick Chat Native Validation Launcher
+[HARNESS] Repo dir:       /tmp/pi-qc-submit.tlop0q/feature
+[HARNESS] Artifacts dir:  /tmp/pi-qc-submit.tlop0q/evidence/platform-darwin/artifacts
+[HARNESS] Private root:   /var/folders/4g/p3sd69gs00s83572wvthb6nm0000gn/T/pi-qc-sandbox-1793020700794-20526
+[HARNESS] Platform:       darwin (arm64)
+[HARNESS] Electron:       43.8.3
+[HARNESS] Embedded Node:  v24.22.0
+=================================================================
+[HARNESS] Requiring built main module: /tmp/pi-qc-submit.tlop0q/feature/out/main/index.js
+[HARNESS] Electron app whenReady resolved. Awaiting mainWindow finish-load...
+[HARNESS] Identified Main window!
+─── Pi binary resolution ────────────────────────────
+[Pi] Script        : /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/dist/cli.js (exists)
+[Pi] Source        : npm-prefix
+[Pi] Uses node     : true
+[Pi] Node binary   : /opt/homebrew/bin/node (exists)
+[Pi] Needs shell   : false
+─────────────────────────────────────────────────────
+[HARNESS] globalShortcut.register("CommandOrControl+Alt+Q") returned true
+[HARNESS] Main window finished loading.
+[HARNESS] Native main-window readiness: visible=true, focused=true
+[HARNESS] App readiness verified.
+[VALIDATION] Starting native platform validation suite...
+[VALIDATION] --- Scenario 1: Native OS Shortcut Open / Hide / Reopen ---
+[VALIDATION] Shortcut "CommandOrControl+Alt+Q" registered. Injecting native OS keystroke...
+[VALIDATION] [obs:s1:start] visible=false focused=false focusedWin=mainWindow triggers=0
+[VALIDATION] [obs:s1:before-inject-1] visible=false focused=false focusedWin=mainWindow triggers=0
+[VALIDATION] [obs:s1:after-inject-1] visible=false focused=false focusedWin=mainWindow triggers=0
+[HARNESS] Genuine OS Global Shortcut triggered! Accelerator: CommandOrControl+Alt+Q, count: 1
+[HARNESS] Identified Quick Chat window!
+[HARNESS] Identified Quick Chat window!
+[VALIDATION] Quick Chat window opened via native OS hotkey! Counter: 1
+[VALIDATION] [obs:s1:after-open-resolved] visible=true focused=true focusedWin=quickChat triggers=1
+[VALIDATION] [obs:s1:before-inject-2] visible=true focused=true focusedWin=quickChat triggers=1
+[VALIDATION] [obs:s1:after-inject-2] visible=true focused=true focusedWin=quickChat triggers=1
+[HARNESS] Genuine OS Global Shortcut triggered! Accelerator: CommandOrControl+Alt+Q, count: 2
+[VALIDATION] [obs:popup:blur] visible=false focused=false focusedWin=mainWindow triggers=2
+[VALIDATION] Quick Chat window hid via native OS hotkey! Counter: 2
+[VALIDATION] [obs:s1:after-hide-resolved] visible=false focused=false focusedWin=mainWindow triggers=2
+[VALIDATION] [obs:popup:hide] visible=false focused=false focusedWin=mainWindow triggers=2
+[VALIDATION] [obs:s1:before-inject-3] visible=false focused=false focusedWin=mainWindow triggers=2
+[VALIDATION] [obs:s1:after-inject-3] visible=false focused=false focusedWin=mainWindow triggers=2
+[HARNESS] Genuine OS Global Shortcut triggered! Accelerator: CommandOrControl+Alt+Q, count: 3
+[VALIDATION] [obs:popup:show] visible=true focused=true focusedWin=quickChat triggers=3
+[VALIDATION] [obs:popup:focus] visible=true focused=true focusedWin=quickChat triggers=3
+[VALIDATION] Quick Chat window reopened via native OS hotkey! Counter: 3
+[VALIDATION] [obs:s1:after-reopen-resolved] visible=true focused=true focusedWin=quickChat triggers=3
+[VALIDATION] --- Scenario 2: Application Menu Handler Toggle (Handler-Only) ---
+[VALIDATION] [obs:s2:start] visible=true focused=true focusedWin=quickChat triggers=3
+[VALIDATION] [obs:s2:before-menu-click-1] visible=true focused=true focusedWin=quickChat triggers=3
+[VALIDATION] [obs:s2:after-menu-click-1] visible=false focused=false focusedWin=mainWindow triggers=3
+[VALIDATION] [obs:s2:after-direction-1-resolved] visible=false focused=false focusedWin=mainWindow triggers=3
+[VALIDATION] [obs:s2:before-menu-click-2] visible=false focused=false focusedWin=mainWindow triggers=3
+[VALIDATION] [obs:s2:after-menu-click-2] visible=true focused=true focusedWin=quickChat triggers=3
+[VALIDATION] [obs:s2:after-direction-2-resolved] visible=true focused=true focusedWin=quickChat triggers=3
+[VALIDATION] Verified Application Menu handler-only toggle!
+[VALIDATION] --- Scenario 3: Settings > Keyboard Shortcuts > Open Quick Chat Button ---
+[VALIDATION] Dispatching Cmd+Comma to open Settings...
+[VALIDATION] Locating and clicking exact "Open Quick Chat" button...
+[VALIDATION] Clicked exact "Open Quick Chat" button in Settings
+[VALIDATION] Verified: Quick Chat popup window opened via visible Settings button!
+[VALIDATION] --- Scenario 4: Pin vs Blur ---
+[VALIDATION] Testing unpinned auto-hide on blur...
+[VALIDATION] Quick Chat window auto-hid on blur as expected!
+[VALIDATION] Locating Pin button in DOM...
+[VALIDATION] Verified: qcWin.isAlwaysOnTop is true
+[VALIDATION] Blurring window while pinned...
+[VALIDATION] Quick Chat window remained visible on blur while pinned (same-app focus retention verified)!
+[VALIDATION] Quick Chat window auto-hid after unpinning!
+[VALIDATION] --- Scenario 5: Display-Aware Bounds ---
+[VALIDATION] Window bounds: {"x":800,"y":239,"width":960,"height":720}, workArea: {"x":0,"y":30,"width":2560,"height":1346}
+[VALIDATION] --- Scenario 6: Draft Visible During Model Selection & No Native Resize ---
+[VALIDATION] Typed draft text into composer: "Verification draft text: must remain visible and not obscured by model picker"
+[Pi] Spawning with cwd: /var/folders/4g/p3sd69gs00s83572wvthb6nm0000gn/T/pi-qc-sandbox-1793020700794-20526/home
+[Pi] Spawn argv     : [
+  '/opt/homebrew/bin/node',
+  '/opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/dist/cli.js',
+  '--mode',
+  'rpc',
+  '--no-session',
+  '--no-tools',
+  '--no-extensions',
+  '--no-skills',
+  '--no-mcp',
+  '--no-prompt-templates',
+  '--no-context-files'
+]
+[VALIDATION] Clicked Model Picker trigger button in ActionPills
+[VALIDATION] Model picker popover mounted in DOM (div[role="dialog"])
+[VALIDATION] Verified: Native window bounds are strictly identical (NO native resize)!
+[VALIDATION] Verified: Model picker popover has positive viewport geometry and does NOT overlap draft textarea!
+[VALIDATION] Verified: Draft textarea content strictly preserved!
+[VALIDATION] Model picker popover cleanly dismissed via Escape key
+[VALIDATION] --- Scenario 7: Sandbox and Navigation Deny ---
+[VALIDATION] Electron runtime webPreferences observed: sandbox=true, contextIsolation=true, nodeIntegration=false
+[VALIDATION] Verified: window.require and window.process are strictly undefined in renderer world
+[VALIDATION] Verified: will-navigate event fired, preventDefault was asserted, and URL remained trusted
+[VALIDATION] Verified: setWindowOpenHandler denied popup window creation
+[VALIDATION] --- Scenario 8: Quit Lifecycle & Native Unsaved-Editor Guard ---
+[VALIDATION] Testing popup close lifecycle (close() hides window)...
+[Pi] Ready after 594ms
+[VALIDATION] Verified: Calling close() on Quick Chat hid the window without destroying it!
+[VALIDATION] Verifying a popup closed before first load never reopens...
+[HARNESS] Identified Quick Chat window!
+[HARNESS] Identified Quick Chat window!
+[VALIDATION] Verified: closing before first load kept the loaded popup hidden!
+[VALIDATION] Setting editor dirty via real mainWindow preload IPC (window.piDesktop.ui.setEditorDirty)...
+[VALIDATION] Triggering app.quit() with dirty editor buffer...
+[VALIDATION] Verified: before-quit preventDefault() was asserted by editor guard!
+[VALIDATION] Native dialogs before dismissal: [{"settled":false,"response":null}]
+[VALIDATION] Main window before dismissal: visible=true focused=false
+[VALIDATION] Dismissing real native discard dialog via native OS Escape...
+[HARNESS] Native dialog settled with response 1
+[VALIDATION] Verified: Main and Quick Chat windows remained alive after modal dismissal!
+[VALIDATION] Validation suite finished: PASS
+[HARNESS] Validation report persisted to /tmp/pi-qc-submit.tlop0q/evidence/platform-darwin/artifacts/validation-report.json (initial)
+=================================================================
+[HARNESS] SCENARIOS SUMMARY (PASS):
+  - shortcutOpenHideReopen                       : PASS
+  - menuHandlerToggle                            : PASS
+  - settingsQuickChatButton                      : PASS
+  - pinVsBlur                                    : PASS
+  - displayAwareBounds                           : PASS
+  - draftVisibleDuringModelSelectionNoResize     : PASS
+  - sandboxAndNavigationDeny                     : PASS
+  - quitLifecycle                                : PASS
+=================================================================
+[HARNESS] Initiating real app.quit() teardown...
+[HARNESS] Observed real will-quit event!
+[HARNESS] Validation report persisted to /tmp/pi-qc-submit.tlop0q/evidence/platform-darwin/artifacts/validation-report.json (will-quit)
+[HARNESS] Observed real will-quit event!
+[HARNESS] Validation report persisted to /tmp/pi-qc-submit.tlop0q/evidence/platform-darwin/artifacts/validation-report.json (will-quit)
+[HARNESS] Observed real quit event with exit code: 0!
+[HARNESS] Validation report persisted to /tmp/pi-qc-submit.tlop0q/evidence/platform-darwin/artifacts/validation-report.json (quit)
