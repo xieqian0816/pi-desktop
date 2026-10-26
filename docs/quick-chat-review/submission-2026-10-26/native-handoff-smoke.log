@@ -1,0 +1,59 @@
+Native exact-runtime handoff smoke (real Electron + real OMP engine)
+====================================================================
+Run: 2026-10-26 02:14-02:19 UTC (10:14-10:19 +0800)
+Build: /tmp/pi-qc-foundation-worktree — commit "feat: support background
+session views without changing the main selection" (foundation commit,
+rebased later as 1d31326; the three follow-up fixes 9e41398 / 3c5e1bd /
+e1f142a landed after this run and carry their own controlled smokes and
+colocated regression tests, listed in prerequisites.json).
+Environment: isolated HOME + PI_DESKTOP_USER_DATA_DIR under
+/tmp/pi-qc-foundation-smoke-cz7xLQ; engine omp v18.12.6 from the system
+path; models.yml copied into the isolated .omp/agent root; no ambient
+cloud credentials.
+
+Steps (executed in the app's real renderer over the typed preload bridge):
+
+1. Workspace "Core smoke" created on an isolated fixture project.
+2. Two runtimes created back-to-back via session.createNew(); both
+   settled to running processes (PIDs observed live).
+3. session.activateRuntime(ws, a.runtimeId) switched the active runtime
+   EXACTLY, by ID. Post-conditions asserted in the page:
+   - picked.runtimeId === a.runtimeId
+   - runtime b's PID unchanged before vs. after activation
+   - a thrown error would have failed the smoke if the handoff had
+     replaced the other process
+4. prompt("Reply with exactly CORE-HANDOFF. Do not call any tools.")
+   sent to the now-active runtime.
+
+Observed results (raw page-context return values):
+
+  {
+    sameRuntime: true,
+    otherPidUnchanged: true,
+    engine: 'omp',
+    model: 'DeepSeek-V4-Flash-Official',
+    provider: 'trae-proxy',
+    thinking: 'max'
+  }
+
+  {
+    agentEnded: true,
+    reply: 'CORE-HANDOFF',
+    sessionFile: '/tmp/pi-qc-foundation-smoke-cz7xLQ/home/.omp/agent/sessions/--private-tmp-pi-qc-foundation-smoke-cz7xLQ-project--/2026-10-26T02-18-27-831Z_01a17600-8477-75e0-b7d3-9449e650991b.jsonl'
+  }
+
+Interpretation:
+
+- The exact-runtime activation kept the non-activated process alive
+  (its PID was identical before and after) and delivered the prompt to
+  the selected runtime, whose real OMP engine streamed back the literal
+  marker CORE-HANDOFF and wrote the session JSONL under the isolated
+  home root.
+- Scope: this is native evidence for the FOUNDATION commit only. The
+  three regression fixes that followed (dialog expiry promotion,
+  deferred activation invalidation, stale-activation rejection) were
+  verified on the final head with controlled process/IPC smokes and
+  colocated tests (runtime-tests.log, router-promotion-smoke.log,
+  stale-navigation-*.log, retained-history-*.log, slow-workspace-
+  switch-smoke.log, newer-intent-smoke.log), per the limits stated in
+  prerequisites.json.
