@@ -1,0 +1,4 @@
+PASS: stale activation rejected; newer navigation kept
+PASS: newer navigation result preserved
+
+result: GREEN (fixed)

@@ -1,0 +1,19 @@
+─── Pi binary resolution ────────────────────────────
+[Pi] Script        : /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/dist/cli.js (exists)
+[Pi] Source        : npm-prefix
+[Pi] Uses node     : true
+[Pi] Node binary   : /opt/homebrew/bin/node (exists)
+[Pi] Needs shell   : false
+─────────────────────────────────────────────────────
+PASS: passive open returns stopped runtime (status=stopped, pid=null)
+PASS: live runtime still present after passive open
+PASS: main active pointer unchanged by passive open
+PASS: same session path resolves to the same runtime
+PASS: activateRuntime returns the target runtime
+PASS: activation preserves the session file
+PASS: activation moved the main active pointer
+PASS: passive runtime stays stopped until a real start
+PASS: retained passive runtime survives pruning
+PASS: runtime still resolvable after release
+
+result: GREEN

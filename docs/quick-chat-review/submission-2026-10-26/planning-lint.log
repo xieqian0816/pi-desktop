@@ -1,0 +1,9 @@
+
+> pi-desktop@0.2.2-alpha lint
+> eslint src bin scripts resources && node scripts/check-semantic-colors.mjs && i18next-cli lint && i18next-cli extract --ci --dry-run
+
+✔ No issues found.
+- Running i18next key extractor...
+
+✔ Extraction complete!
+✅ No files were updated.

@@ -1,0 +1,16 @@
+
+=== main view: expired delivered dialog strands queued replacement ===
+PASS: dialog A delivered
+PASS: dialog B promoted without explicit flush after A expired
+PASS: A cancel (if any) accompanied by B promotion
+PASS: B answer reached engine
+PASS: no pending left
+
+=== secondary view: expired delivered dialog strands queued replacement ===
+PASS: dialog A delivered
+PASS: dialog B promoted without explicit flush after A expired
+PASS: A cancel (if any) accompanied by B promotion
+PASS: B answer reached engine
+PASS: no pending left
+
+result: GREEN (fixed)

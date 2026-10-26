@@ -1,0 +1,4 @@
+PASS: declined activation did not invalidate retained session history load
+PASS: retained session runtime unchanged
+
+result: GREEN (fixed)

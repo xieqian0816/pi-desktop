@@ -1,0 +1,4 @@
+FAIL: declined activation did not invalidate retained session history load — sessionLoading=true
+PASS: retained session runtime unchanged
+
+result: RED (defect reproduced)

@@ -1,0 +1,16 @@
+─── Pi binary resolution ────────────────────────────
+[Pi] Script        : /opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/dist/cli.js (exists)
+[Pi] Source        : npm-prefix
+[Pi] Uses node     : true
+[Pi] Node binary   : /opt/homebrew/bin/node (exists)
+[Pi] Needs shell   : false
+─────────────────────────────────────────────────────
+PASS: dialog "dlg-1" (confirm) crossed the process boundary
+PASS: pending counts visible across the boundary: {"ws-1793020029863-1cb652":2}
+PASS: dialog "dlg-2" (input) crossed the process boundary
+PASS: second dialog queued behind the first was promoted after the first was answered
+PASS: engine received the answer for "dlg-1": {"confirmed":true}
+PASS: engine received the answer for "dlg-2": {"value":"answer"}
+PASS: main side completed cleanly
+
+result: GREEN

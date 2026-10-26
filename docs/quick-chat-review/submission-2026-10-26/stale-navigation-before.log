@@ -1,0 +1,3 @@
+FAIL: stale activation must be rejected after other navigation committed during its confirmation — activation committed over newer navigation; activeRuntimeId=rt-target
+
+result: RED (gap reproduced)

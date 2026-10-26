@@ -1,0 +1,4 @@
+
+> pi-desktop@0.2.2-alpha typecheck
+> tsc -b --noEmit
+

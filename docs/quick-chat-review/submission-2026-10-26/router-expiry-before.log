@@ -1,0 +1,14 @@
+
+=== main view: expired delivered dialog strands queued replacement ===
+PASS: dialog A delivered
+FAIL: dialog B promoted without explicit flush after A expired
+FAIL: A cancel (if any) accompanied by B promotion
+FAIL: no pending left
+
+=== secondary view: expired delivered dialog strands queued replacement ===
+PASS: dialog A delivered
+FAIL: dialog B promoted without explicit flush after A expired
+PASS: A cancel (if any) accompanied by B promotion
+FAIL: no pending left
+
+result: RED (defect reproduced)

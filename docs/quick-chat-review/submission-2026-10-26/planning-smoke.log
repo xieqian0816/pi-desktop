@@ -1,0 +1,8 @@
+PASS: composed starts with the shared opening sentinel
+PASS: sentinel separates preamble from request
+PASS: user request preserved verbatim at the end
+PASS: exactly one sentinel
+stripInjectedPreamble recovers: "Refactor the parser to handle nested quotes\nand keep line breaks"
+PASS: stripper not exported; sentinel-only check stands
+
+result: GREEN
