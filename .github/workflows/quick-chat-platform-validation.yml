@@ -1,0 +1,160 @@
+name: Quick Chat Native Platform Validation
+
+# Fork-only temporary verification workflow.
+# Exercises actual Electron 43 runtime proof on Windows, Linux X11, and Linux Wayland.
+# Triggered on candidate verification branch pushes (fork-only) or workflow_dispatch.
+on:
+  push:
+    branches:
+      - 'qc-verify/maintainer-rewrite'
+  workflow_dispatch:
+
+concurrency:
+  group: qc-platform-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-windows:
+    name: Windows Native Validation
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout candidate commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build renderer/main/preload
+        run: |
+          node --version
+          node -p "process.execPath"
+          node -p "require('electron/package.json').version"
+          npm run build
+
+      - name: Run Windows Native Validation Harness
+        shell: bash
+        run: |
+          npx --no-install electron .harness/launcher.cjs --repo-dir=. --out-dir=artifacts/windows
+
+      - name: Upload Windows Validation Artifacts
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: validation-artifacts-windows
+          path: artifacts/windows/**
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Validate Windows Report Acceptance
+        if: always()
+        shell: bash
+        run: |
+          node .harness/validate-report.cjs \
+            --report=artifacts/windows/validation-report.json \
+            --expected-platform=win32 \
+            --expected-display-server=windows
+  validate-linux-x11:
+    name: Linux X11 Native Validation
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout candidate commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install X11 WM, injection tools, and Electron dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb openbox xdotool libasound2-dev libgbm-dev libnss3
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build renderer/main/preload
+        run: |
+          node --version
+          node -p "process.execPath"
+          node -p "require('electron/package.json').version"
+          npm run build
+
+      - name: Run Linux X11 Native Validation Harness
+        run: |
+          bash .harness/run-x11.sh
+
+      - name: Upload Linux X11 Validation Artifacts
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: validation-artifacts-linux-x11
+          path: artifacts/linux-x11/**
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Validate Linux X11 Report Acceptance
+        if: always()
+        run: |
+          node .harness/validate-report.cjs \
+            --report=artifacts/linux-x11/validation-report.json \
+            --expected-platform=linux \
+            --expected-display-server=x11
+  validate-linux-wayland:
+    name: Linux Wayland Native Validation
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - name: Checkout candidate commit
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38 # v6.5.0
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install Wayland compositor (Weston), D-Bus, and Portal dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y weston libwayland-client0 libgbm-dev libnss3 dbus-x11 xdg-desktop-portal wtype
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build renderer/main/preload
+        run: |
+          node --version
+          node -p "process.execPath"
+          node -p "require('electron/package.json').version"
+          npm run build
+
+      - name: Run Linux Wayland Native Validation Harness
+        run: |
+          bash .harness/run-wayland.sh
+
+      - name: Upload Linux Wayland Validation Artifacts
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: validation-artifacts-linux-wayland
+          path: artifacts/linux-wayland/**
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Validate Linux Wayland Report Acceptance
+        if: always()
+        run: |
+          node .harness/validate-report.cjs \
+            --report=artifacts/linux-wayland/validation-report.json \
+            --expected-platform=linux \
+            --expected-display-server=wayland

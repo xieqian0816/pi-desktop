@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-10-26T02:56:21.715Z",
+  "platform": {
+    "os": "linux",
+    "arch": "x64",
+    "release": "6.17.0-1022-azure",
+    "electron": "43.8.3",
+    "chrome": "150.0.7871.250",
+    "node": "24.22.0",
+    "displayServer": "x11",
+    "isWayland": false,
+    "ciLimitations": {
+      "noSandbox": true,
+      "headlessCompositor": false
+    }
+  },
+  "shortcutObservation": {
+    "accelerator": "CommandOrControl+Alt+Q",
+    "registered": true,
+    "registrationAttempted": true,
+    "triggerCount": 0,
+    "lastTriggerTime": 0,
+    "honestStatusReason": null
+  },
+  "scenarios": {},
+  "screenshots": [
+    {
+      "name": "01-quick-chat-opened",
+      "path": "/home/runner/work/pi-desktop/pi-desktop/artifacts/linux-x11/screenshots/01-quick-chat-opened.png"
+    }
+  ],
+  "overallStatus": "FAIL",
+  "error": "Quick Chat window did not hide via native OS hotkey injection #2 (exceeded 8000ms)",
+  "teardown": {
+    "willQuitObserved": true,
+    "quitObserved": true,
+    "quitExitCode": 0
+  }
+}
