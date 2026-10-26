@@ -1,0 +1,374 @@
+{
+  "timestamp": "2026-10-26T13:21:07.346Z",
+  "platform": {
+    "os": "linux",
+    "arch": "x64",
+    "release": "6.17.0-1022-azure",
+    "electron": "43.8.3",
+    "chrome": "150.0.7871.250",
+    "node": "24.22.0",
+    "displayServer": "x11",
+    "isWayland": false,
+    "ciLimitations": {
+      "noSandbox": true,
+      "headlessCompositor": false,
+      "screenshots": [
+        {
+          "name": "01-quick-chat-opened",
+          "status": "CAPTURED"
+        },
+        {
+          "name": "02-quick-chat-pinned",
+          "status": "CAPTURED"
+        },
+        {
+          "name": "03-model-picker-open-draft-visible",
+          "status": "CAPTURED"
+        }
+      ]
+    }
+  },
+  "shortcutObservation": {
+    "accelerator": "CommandOrControl+Alt+Q",
+    "registered": true,
+    "registrationAttempted": true,
+    "triggerCount": 3,
+    "lastTriggerTime": 1793020868187,
+    "honestStatusReason": null
+  },
+  "scenarios": {
+    "shortcutOpenHideReopen": {
+      "status": "PASS",
+      "mode": "native-os-hotkey",
+      "accelerator": "CommandOrControl+Alt+Q",
+      "totalVerifiedTriggers": 3,
+      "diagnosticObservations": [
+        {
+          "timestamp": "2026-10-26T13:21:07.346Z",
+          "tag": "s1:start",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "mainWindow",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.346Z",
+          "tag": "s1:before-inject-1",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "mainWindow",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.397Z",
+          "tag": "s1:after-inject-1",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "mainWindow",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.607Z",
+          "tag": "s1:after-open-resolved",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 1
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.608Z",
+          "tag": "popup:focus",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 1
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.733Z",
+          "tag": "s1:before-inject-2",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 1
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.784Z",
+          "tag": "s1:after-inject-2",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 1
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.786Z",
+          "tag": "popup:hide",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 2
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.786Z",
+          "tag": "popup:blur",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 2
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.787Z",
+          "tag": "popup:hide",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "mainWindow",
+          "triggerCount": 2
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.788Z",
+          "tag": "popup:hide",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "mainWindow",
+          "triggerCount": 2
+        },
+        {
+          "timestamp": "2026-10-26T13:21:07.834Z",
+          "tag": "s1:after-hide-resolved",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "mainWindow",
+          "triggerCount": 2
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.135Z",
+          "tag": "s1:before-inject-3",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "mainWindow",
+          "triggerCount": 2
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.185Z",
+          "tag": "s1:after-inject-3",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "mainWindow",
+          "triggerCount": 2
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.188Z",
+          "tag": "popup:show",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.189Z",
+          "tag": "popup:focus",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.235Z",
+          "tag": "s1:after-reopen-resolved",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 3
+        }
+      ]
+    },
+    "menuHandlerToggle": {
+      "status": "PASS",
+      "handlerOnly": true,
+      "menuItemLabel": "Quick Chat",
+      "diagnosticObservations": [
+        {
+          "timestamp": "2026-10-26T13:21:08.236Z",
+          "tag": "s2:start",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.236Z",
+          "tag": "s2:before-menu-click-1",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.237Z",
+          "tag": "s2:after-menu-click-1",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.237Z",
+          "tag": "s2:after-direction-1-resolved",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.237Z",
+          "tag": "s2:before-menu-click-2",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.238Z",
+          "tag": "popup:show",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.239Z",
+          "tag": "s2:after-menu-click-2",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 3
+        },
+        {
+          "timestamp": "2026-10-26T13:21:08.239Z",
+          "tag": "s2:after-direction-2-resolved",
+          "isVisible": true,
+          "isFocused": true,
+          "focusedWindow": "quickChat",
+          "triggerCount": 3
+        }
+      ]
+    },
+    "settingsQuickChatButton": {
+      "status": "PASS",
+      "mode": "ui-settings-open-quick-chat-button",
+      "localShortcut": "Ctrl+Comma",
+      "popupVisible": true
+    },
+    "pinVsBlur": {
+      "status": "PASS",
+      "unpinnedBlurHid": true,
+      "sameAppFocusRetention": true,
+      "isAlwaysOnTopVerified": true,
+      "unpinnedResumedHide": true
+    },
+    "displayAwareBounds": {
+      "status": "PASS",
+      "bounds": {
+        "x": 400,
+        "y": 135,
+        "width": 640,
+        "height": 495
+      },
+      "workArea": {
+        "x": 0,
+        "y": 0,
+        "width": 1440,
+        "height": 900
+      },
+      "withinWorkArea": true,
+      "minConstraintsRespected": true
+    },
+    "draftVisibleDuringModelSelectionNoResize": {
+      "status": "PASS",
+      "boundsBefore": {
+        "x": 400,
+        "y": 135,
+        "width": 640,
+        "height": 495
+      },
+      "boundsDuring": {
+        "x": 400,
+        "y": 135,
+        "width": 640,
+        "height": 495
+      },
+      "noNativeResize": true,
+      "draftTextPreserved": true,
+      "positiveGeometry": true,
+      "inViewport": true,
+      "textareaBounds": {
+        "bottom": 99,
+        "height": 46,
+        "left": 17,
+        "right": 623,
+        "top": 53,
+        "width": 606
+      },
+      "modelPickerBounds": {
+        "bottom": 442.5,
+        "height": 339.5,
+        "left": 13,
+        "right": 627,
+        "top": 103,
+        "width": 614
+      },
+      "noVisualOverlap": true,
+      "layoutEvidenceOnly": true,
+      "note": "Verified layout, bounds preservation, and visibility invariants without fake model completions"
+    },
+    "sandboxAndNavigationDeny": {
+      "status": "PASS",
+      "webPreferencesInspector": "webContents.getLastWebPreferences()",
+      "webPreferencesObservation": {
+        "sandbox": true,
+        "contextIsolation": true,
+        "nodeIntegration": false
+      },
+      "sandbox": true,
+      "contextIsolation": true,
+      "nodeIntegration": false,
+      "kernelSandboxAssessment": "NOT_ASSESSED",
+      "rendererGlobalsIsolated": true,
+      "willNavigateDefaultPrevented": true,
+      "windowOpenDenied": true
+    },
+    "quitLifecycle": {
+      "status": "PASS",
+      "popupCloseHidNotDestroyed": true,
+      "earlyCloseBeforeLoadStayedHidden": true,
+      "editorGuardPreventedQuit": true,
+      "modalDismissedViaNativeEscape": true,
+      "windowsPreserved": true
+    }
+  },
+  "screenshots": [
+    {
+      "name": "01-quick-chat-opened",
+      "path": "/home/runner/work/pi-desktop/pi-desktop/artifacts/linux-x11/screenshots/01-quick-chat-opened.png",
+      "width": 640,
+      "height": 495
+    },
+    {
+      "name": "02-quick-chat-pinned",
+      "path": "/home/runner/work/pi-desktop/pi-desktop/artifacts/linux-x11/screenshots/02-quick-chat-pinned.png",
+      "width": 640,
+      "height": 495
+    },
+    {
+      "name": "03-model-picker-open-draft-visible",
+      "path": "/home/runner/work/pi-desktop/pi-desktop/artifacts/linux-x11/screenshots/03-model-picker-open-draft-visible.png",
+      "width": 640,
+      "height": 495
+    }
+  ],
+  "overallStatus": "PASS",
+  "teardown": {
+    "willQuitObserved": true,
+    "quitObserved": true,
+    "quitExitCode": 0
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "steps": [
+    {
+      "name": "engine",
+      "source": "system-path",
+      "mock": "http://127.0.0.1:52582/v1",
+      "echo": "http://127.0.0.1:52583/v1",
+      "cli": "/opt/homebrew/lib/node_modules/@earendil-works/pi-coding-agent/dist/bundle/cli.js"
+    },
+    {
+      "name": "popup-context",
+      "sdm": true
+    },
+    {
+      "name": "model-picker-options",
+      "options": [
+        "local-mock · mock-real-chat",
+        "local-mock · mock-alt-chat"
+      ]
+    },
+    {
+      "name": "model-selected",
+      "sel": "local-mock · mock-alt-chat"
+    },
+    {
+      "name": "assistant-reply",
+      "reply": "[mock-alt-chat] The identity says x2+1x^2+1x2+1 always. See the harness docs for details. End of proof.",
+      "streamed": true
+    },
+    {
+      "name": "math-render-sdm-on",
+      "katexCount": 1,
+      "literalDollarLeft": false
+    },
+    {
+      "name": "links-in-popup",
+      "anchorCount": 0,
+      "inertSpanCount": 1
+    },
+    {
+      "name": "math-render-sdm-off",
+      "flip": "saved",
+      "katexCount": 0,
+      "literalDollarBack": true
+    },
+    {
+      "name": "session-jsonl",
+      "files": 1,
+      "records": [
+        "session",
+        "model_change",
+        "thinking_level_change",
+        "model_change",
+        "message",
+        "message",
+        "message"
+      ]
+    },
+    {
+      "name": "echo-request",
+      "model": "mock-alt-chat",
+      "prompt": "You are an expert coding assistant operating inside pi, a coding agent harness. You help users by reading files, executing commands, editing code, and writing new files.\n\n<tools>\n- read: Read file con"
+    }
+  ],
+  "overall": "PASS",
+  "engineProvider": "local deterministic OpenAI-compatible SSE echo (not a cloud model)",
+  "electron": "43.8.3",
+  "notes": [
+    "Screenshot 05-model-picker-open-loading-state.png shows the picker popover during initial session load (Loading session, zero options); it is NOT proof of a loaded catalog. The loaded-catalog proof is the model-picker-options step (2 options listed) captured at 04-model-picker-closed.png time via DOM assertion; 06-live-reply.png shows the completed streamed reply with rendered KaTeX."
+  ]
+}

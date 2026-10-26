@@ -1,0 +1,21 @@
+{
+  "productSHA": "a93d6e74c988c2cac323c8768c71188a944e9fc3",
+  "verificationSHA": "e9251334161f6b7c1caf0b2bd552b7dbded1c66a",
+  "verificationParent": "a93d6e74c988c2cac323c8768c71188a944e9fc3",
+  "productDiffVsCandidate": "(empty: all product source identical to productSHA)",
+  "harnessFiles": [
+    ".github/workflows/quick-chat-platform-validation.yml",
+    ".harness/cdp-helper.cjs",
+    ".harness/fixtures/known-fail-linux-wayland.json",
+    ".harness/fixtures/known-fail-linux-x11.json",
+    ".harness/launcher.cjs",
+    ".harness/os-input-injector.cjs",
+    ".harness/run-wayland.sh",
+    ".harness/run-x11.sh",
+    ".harness/scenarios.cjs",
+    ".harness/test-validate-report.cjs",
+    ".harness/validate-report.cjs"
+  ],
+  "leaseSHA": "44e106432211524d7a15b4c0226acd3eed0b4bcf",
+  "harnessFidelity": "all 10 .harness files + workflow byte-identical to /tmp/pi-qc-submit.tlop0q/harness (which is diff -r identical to the untouched /tmp/pi-qc-ci-worktree/.harness working set); launcher.cjs/scenarios.cjs/validate-report.cjs/run-x11.sh/os-input-injector.cjs additionally match the committed 44e1064 blobs for the 8 committed files, with os-input-injector.cjs and run-x11.sh being the CI worktree's own working-tree versions per the mandated root-harness copy"
+}

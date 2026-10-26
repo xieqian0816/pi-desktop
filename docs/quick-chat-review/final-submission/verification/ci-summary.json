@@ -1,0 +1,75 @@
+{
+ "windows": {
+  "overall": "PASS",
+  "platform": "win32/windows",
+  "electron": "43.8.3",
+  "scenarios": {
+   "shortcutOpenHideReopen": "PASS",
+   "menuHandlerToggle": "PASS",
+   "settingsQuickChatButton": "PASS",
+   "pinVsBlur": "PASS",
+   "displayAwareBounds": "PASS",
+   "draftVisibleDuringModelSelectionNoResize": "PASS",
+   "sandboxAndNavigationDeny": "PASS",
+   "quitLifecycle": "PASS"
+  },
+  "screenshots": [
+   "01-quick-chat-opened:CAPTURED",
+   "02-quick-chat-pinned:CAPTURED",
+   "03-model-picker-open-draft-visible:CAPTURED"
+  ],
+  "quit": {
+   "willQuitObserved": true,
+   "quitObserved": true,
+   "quitExitCode": 0
+  }
+ },
+ "linux-x11": {
+  "overall": "PASS",
+  "platform": "linux/x11",
+  "electron": "43.8.3",
+  "scenarios": {
+   "shortcutOpenHideReopen": "PASS",
+   "menuHandlerToggle": "PASS",
+   "settingsQuickChatButton": "PASS",
+   "pinVsBlur": "PASS",
+   "displayAwareBounds": "PASS",
+   "draftVisibleDuringModelSelectionNoResize": "PASS",
+   "sandboxAndNavigationDeny": "PASS",
+   "quitLifecycle": "PASS"
+  },
+  "screenshots": [
+   "01-quick-chat-opened:CAPTURED",
+   "02-quick-chat-pinned:CAPTURED",
+   "03-model-picker-open-draft-visible:CAPTURED"
+  ],
+  "quit": {
+   "willQuitObserved": true,
+   "quitObserved": true,
+   "quitExitCode": 0
+  }
+ },
+ "linux-wayland": {
+  "overall": "PARTIAL",
+  "platform": "linux/wayland",
+  "electron": "43.8.3",
+  "scenarios": {
+   "shortcutOpenHideReopen": "UNSUPPORTED (Wayland input injection unsupported: Compositor does not support the virtual keyboard prot)",
+   "menuHandlerToggle": "PASS",
+   "settingsQuickChatButton": "PASS",
+   "pinVsBlur": "UNSUPPORTED (Native Wayland compositor did not grant keyboard focus or emit a focus-to-blur transition;)",
+   "displayAwareBounds": "PASS",
+   "draftVisibleDuringModelSelectionNoResize": "PASS",
+   "sandboxAndNavigationDeny": "PASS",
+   "quitLifecycle": "UNSUPPORTED (Wayland headless environment cannot drive native modal dialogs via virtual input; unsaved-)"
+  },
+  "screenshots": [
+   "03-model-picker-open-draft-visible:CAPTURED"
+  ],
+  "quit": {
+   "willQuitObserved": true,
+   "quitObserved": true,
+   "quitExitCode": 0
+  }
+ }
+}

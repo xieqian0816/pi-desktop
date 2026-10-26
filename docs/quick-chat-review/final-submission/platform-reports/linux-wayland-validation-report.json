@@ -1,0 +1,256 @@
+{
+  "timestamp": "2026-10-26T13:21:21.473Z",
+  "platform": {
+    "os": "linux",
+    "arch": "x64",
+    "release": "6.17.0-1022-azure",
+    "electron": "43.8.3",
+    "chrome": "150.0.7871.250",
+    "node": "24.22.0",
+    "displayServer": "wayland",
+    "isWayland": true,
+    "ciLimitations": {
+      "noSandbox": true,
+      "headlessCompositor": true,
+      "screenshots": [
+        {
+          "name": "03-model-picker-open-draft-visible",
+          "status": "CAPTURED"
+        }
+      ]
+    }
+  },
+  "shortcutObservation": {
+    "accelerator": "CommandOrControl+Alt+Q",
+    "registered": true,
+    "registrationAttempted": true,
+    "triggerCount": 0,
+    "lastTriggerTime": 0,
+    "honestStatusReason": null
+  },
+  "scenarios": {
+    "shortcutOpenHideReopen": {
+      "status": "UNSUPPORTED",
+      "reason": "Wayland input injection unsupported: Compositor does not support the virtual keyboard protocol",
+      "portalBackendCondition": "unverified",
+      "actualPortalIntrospection": {
+        "isWayland": true,
+        "hasGlobalShortcutsInterface": false,
+        "reason": "org.freedesktop.portal.GlobalShortcuts interface NOT found in /org/freedesktop/portal/desktop introspection XML"
+      },
+      "diagnosticObservations": [
+        {
+          "timestamp": "2026-10-26T13:21:21.474Z",
+          "tag": "s1:start",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.474Z",
+          "tag": "s1:before-inject-1",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.487Z",
+          "tag": "s1:after-inject-1",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        }
+      ]
+    },
+    "menuHandlerToggle": {
+      "status": "PASS",
+      "handlerOnly": true,
+      "menuItemLabel": "Quick Chat",
+      "diagnosticObservations": [
+        {
+          "timestamp": "2026-10-26T13:21:21.494Z",
+          "tag": "s2:start",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.494Z",
+          "tag": "s2:before-menu-click-1",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.503Z",
+          "tag": "s2:after-menu-click-1",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.667Z",
+          "tag": "popup:show",
+          "isVisible": true,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.704Z",
+          "tag": "s2:after-direction-1-resolved",
+          "isVisible": true,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.704Z",
+          "tag": "s2:before-menu-click-2",
+          "isVisible": true,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.705Z",
+          "tag": "popup:hide",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.705Z",
+          "tag": "s2:after-menu-click-2",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        },
+        {
+          "timestamp": "2026-10-26T13:21:21.705Z",
+          "tag": "s2:after-direction-2-resolved",
+          "isVisible": false,
+          "isFocused": false,
+          "focusedWindow": "none",
+          "triggerCount": 0
+        }
+      ]
+    },
+    "settingsQuickChatButton": {
+      "status": "PASS",
+      "mode": "ui-settings-open-quick-chat-button",
+      "localShortcut": "Ctrl+Comma",
+      "popupVisible": true
+    },
+    "pinVsBlur": {
+      "status": "UNSUPPORTED",
+      "reason": "Native Wayland compositor did not grant keyboard focus or emit a focus-to-blur transition; pin/blur behavior requires an interactive desktop session",
+      "nativeFocusEvidence": {
+        "initialFocused": false,
+        "focusedAfterFocusRequest": false,
+        "blurObserved": false,
+        "focusedAfterBlurRequest": false,
+        "focusedWindow": null
+      }
+    },
+    "displayAwareBounds": {
+      "status": "PASS",
+      "bounds": {
+        "x": 192,
+        "y": 73,
+        "width": 640,
+        "height": 420
+      },
+      "workArea": {
+        "x": 0,
+        "y": 0,
+        "width": 1024,
+        "height": 640
+      },
+      "withinWorkArea": true,
+      "minConstraintsRespected": true
+    },
+    "draftVisibleDuringModelSelectionNoResize": {
+      "status": "PASS",
+      "boundsBefore": {
+        "x": 192,
+        "y": 73,
+        "width": 640,
+        "height": 420
+      },
+      "boundsDuring": {
+        "x": 192,
+        "y": 73,
+        "width": 640,
+        "height": 420
+      },
+      "noNativeResize": true,
+      "draftTextPreserved": true,
+      "positiveGeometry": true,
+      "inViewport": true,
+      "textareaBounds": {
+        "bottom": 99,
+        "height": 46,
+        "left": 17,
+        "right": 623,
+        "top": 53,
+        "width": 606
+      },
+      "modelPickerBounds": {
+        "bottom": 367.5,
+        "height": 264.5,
+        "left": 13,
+        "right": 627,
+        "top": 103,
+        "width": 614
+      },
+      "noVisualOverlap": true,
+      "layoutEvidenceOnly": true,
+      "note": "Verified layout, bounds preservation, and visibility invariants without fake model completions"
+    },
+    "sandboxAndNavigationDeny": {
+      "status": "PASS",
+      "webPreferencesInspector": "webContents.getLastWebPreferences()",
+      "webPreferencesObservation": {
+        "sandbox": true,
+        "contextIsolation": true,
+        "nodeIntegration": false
+      },
+      "sandbox": true,
+      "contextIsolation": true,
+      "nodeIntegration": false,
+      "kernelSandboxAssessment": "NOT_ASSESSED",
+      "rendererGlobalsIsolated": true,
+      "willNavigateDefaultPrevented": true,
+      "windowOpenDenied": true
+    },
+    "quitLifecycle": {
+      "status": "UNSUPPORTED",
+      "reason": "Wayland headless environment cannot drive native modal dialogs via virtual input; unsaved-editor discard prompt requires native interactive session",
+      "popupCloseHidNotDestroyed": true,
+      "earlyCloseBeforeLoadStayedHidden": true
+    }
+  },
+  "screenshots": [
+    {
+      "name": "03-model-picker-open-draft-visible",
+      "path": "/home/runner/work/pi-desktop/pi-desktop/artifacts/linux-wayland/screenshots/03-model-picker-open-draft-visible.png",
+      "width": 640,
+      "height": 420
+    }
+  ],
+  "overallStatus": "PARTIAL",
+  "teardown": {
+    "willQuitObserved": true,
+    "quitObserved": true,
+    "quitExitCode": 0
+  }
+}
