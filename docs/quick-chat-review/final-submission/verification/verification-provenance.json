@@ -8,6 +8,8 @@
     ".harness/cdp-helper.cjs",
     ".harness/fixtures/known-fail-linux-wayland.json",
     ".harness/fixtures/known-fail-linux-x11.json",
+    ".harness/known-fail-linux-wayland.json",
+    ".harness/known-fail-linux-x11.json",
     ".harness/launcher.cjs",
     ".harness/os-input-injector.cjs",
     ".harness/run-wayland.sh",
@@ -17,5 +19,5 @@
     ".harness/validate-report.cjs"
   ],
   "leaseSHA": "44e106432211524d7a15b4c0226acd3eed0b4bcf",
-  "harnessFidelity": "all 10 .harness files + workflow byte-identical to /tmp/pi-qc-submit.tlop0q/harness (which is diff -r identical to the untouched /tmp/pi-qc-ci-worktree/.harness working set); launcher.cjs/scenarios.cjs/validate-report.cjs/run-x11.sh/os-input-injector.cjs additionally match the committed 44e1064 blobs for the 8 committed files, with os-input-injector.cjs and run-x11.sh being the CI worktree's own working-tree versions per the mandated root-harness copy"
+  "harnessFidelity": "The verification commit is a direct child of productSHA. Its complete diff contains the workflow and the 12 .harness files listed above, including both root-level known-fail JSON files. No other paths differ. This source-tree comparison does not extend the recorded native runtime coverage."
 }
