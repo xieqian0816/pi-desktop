@@ -6,7 +6,9 @@
 
 ## Automated checks
 
-The feature candidate passed `npm run typecheck`, `npm run lint`, all **2,211 tests**, and `npm run build`. The separate background-session prerequisite passed the same checks with **2,085 tests**. The independent planning-prompt change passed with **2,048 tests**. See the code PR for the resulting manual GitHub Actions run.
+The feature candidate passed `npm run typecheck`, `npm run lint`, all **2,211 tests**, and `npm run build``. The separate background-session prerequisite passed the same checks with **2,085 tests**. The independent planning-prompt change passed with **2,048 tests**.
+
+GitHub reports no checks on either PR. I could not dispatch the upstream Build workflow: this account has read-only access to `FaqFirebase/pi-desktop`, and the fork's default branch does not contain `build.yml`. No passing hosted Actions run is claimed.
 
 ## Native Electron checks
 
