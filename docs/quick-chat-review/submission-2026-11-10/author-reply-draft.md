@@ -1,5 +1,11 @@
-Thanks for the detailed review. I updated Quick Chat to use the main chat's composer, model/thinking selectors, and approval UI, while keeping its session binding and draft handling in the popup controller. The background-session work is now separated in #117, with the planning-prompt relocation in #116.
+Thanks for the detailed review. I reworked the branch around the main concern: Quick Chat now uses the main chat's composer, model/thinking selectors, approval UI, message rendering, and streaming components. The remaining popup controller owns only popup-specific session binding/selection, drafts, submission, and stale-operation handling; it no longer contains separate composer, model-picker, or approval components.
 
-I also checked the main window with Quick Chat closed: Pi and OMP both send, queue behind an active turn, apply a changed model, honor denied/allowed write approvals, and retain an unsent draft across navigation. The popup was exercised with both engines for model discovery, approval handoff, background activity, and window behavior. The PR remains a draft while the two prerequisites are reviewed.
+I also addressed the related items:
 
-The commit-bound checks and captures are linked from the PR description. Native window checks were on macOS; I have not claimed Windows/Linux native coverage or speech-recognition testing.
+- The planning-prompt move is isolated in #116; generic background-session/runtime work is isolated in #117. Both target `Dev`, and #108 depends on them. Relative to the clean merge candidate for those prerequisites, #108's remaining layer is 66 files (+7,067/−698), including tests and main-window integration.
+- Quick Chat is available from Ctrl/Cmd+K in the main window. A new task stays unassigned until the user picks a project, rather than defaulting to home. Pin is hidden on Wayland when unsupported, while explicit X11 remains available.
+- Turkish strings and the shorter README are included. I tested both Pi and OMP.
+
+At `a666660e25748f8c12611d9e1cc84cc3261f3b06`, typecheck, lint, build, and all 2,211 tests pass. Native Electron checks on macOS passed for Pi and OMP: seven main-window scenarios per engine with Quick Chat closed, and fourteen popup scenarios per engine. The evidence link includes the checks, scenarios, captures, scripts, and limits.
+
+I have not validated native Windows/Linux behavior on this final head. Earlier platform results in the thread were from an older commit and are not being presented as proof for this revision. I also cannot dispatch the upstream Build workflow from my read-only account, so there are no hosted PR checks. I am keeping #108 Draft until #116/#117 are integrated and maintainers decide or run the remaining Windows/Linux validation. If you can run the native platform check against this head, the result can be added before marking it ready.

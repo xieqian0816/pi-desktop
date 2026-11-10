@@ -4,9 +4,11 @@
 **Base:** `FaqFirebase/pi-desktop:Dev` at `6ec88e3fa365a971688b09f4face441b94b71c34`
 **Host:** macOS 27.0, Apple Silicon; Electron 43.8.3; Node 22.23.2.
 
+The PR head is 84 files (+8,903/−873) relative to `Dev`, because the separate #116/#117 prerequisites are included in its history. The Quick Chat layer measured against the clean merge candidate for those two prerequisite heads (tree `5e31ed3830cf5937b74ab7695240324c9611b10a`) is 66 files (+7,067/−698), including main-window integration and tests.
+
 ## Automated checks
 
-The feature candidate passed `npm run typecheck`, `npm run lint`, all **2,211 tests**, and `npm run build``. The separate background-session prerequisite passed the same checks with **2,085 tests**. The independent planning-prompt change passed with **2,048 tests**.
+The feature candidate passed `npm run typecheck`, `npm run lint`, all **2,211 tests**, and `npm run build`. The separate background-session prerequisite passed the same checks with **2,085 tests**. The independent planning-prompt change passed with **2,048 tests**.
 
 GitHub reports no checks on either PR. I could not dispatch the upstream Build workflow: this account has read-only access to `FaqFirebase/pi-desktop`, and the fork's default branch does not contain `build.yml`. No passing hosted Actions run is claimed.
 
