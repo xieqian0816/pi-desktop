@@ -1,0 +1,64 @@
+{
+  "piMain": {
+    "passed": true,
+    "scenarios": [
+      "open project through main menu; Quick Chat remains unopened",
+      "shared composer sends and streams through real engine",
+      "shared model picker changes actual main runtime model",
+      "normal Enter queues until completion on same runtime",
+      "shared approval denies real tool write",
+      "shared approval allows real tool write",
+      "unsent draft survives Settings and Chat navigation"
+    ]
+  },
+  "ompMain": {
+    "passed": true,
+    "scenarios": [
+      "open project through main menu; Quick Chat remains unopened",
+      "shared composer sends and streams through real engine",
+      "shared model picker changes actual main runtime model",
+      "normal Enter queues until completion on same runtime",
+      "shared approval denies real tool write",
+      "shared approval allows real tool write",
+      "unsent draft survives Settings and Chat navigation"
+    ]
+  },
+  "piQuickChat": {
+    "passed": true,
+    "scenarios": [
+      "palette entry and unassigned draft",
+      "native macOS pin and blur behavior",
+      "shared file mention",
+      "shared slash command",
+      "real engine catalog and shared picker",
+      "real engine streamed reply",
+      "shared prompt recall",
+      "real permission request",
+      "single live tool card during approval",
+      "pending approval handoff and real tool completion",
+      "same-process handoff and persisted history",
+      "independent background process survived and completed",
+      "shared microphone setup entry",
+      "single settled tool card after history reload"
+    ]
+  },
+  "ompQuickChat": {
+    "passed": true,
+    "scenarios": [
+      "palette entry and unassigned draft",
+      "native macOS pin and blur behavior",
+      "shared file mention",
+      "shared slash command",
+      "real engine catalog and shared picker",
+      "real engine streamed reply",
+      "shared prompt recall",
+      "real permission request",
+      "single live tool card during approval",
+      "pending approval handoff and real tool completion",
+      "same-process handoff and persisted history",
+      "independent background process survived and completed",
+      "shared microphone setup entry",
+      "single settled tool card after history reload"
+    ]
+  }
+}
