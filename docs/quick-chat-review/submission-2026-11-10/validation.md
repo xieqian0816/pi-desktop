@@ -1,7 +1,7 @@
 # Quick Chat revision evidence
 
-**Code tested:** `a666660e25748f8c12611d9e1cc84cc3261f3b06`  
-**Base:** `FaqFirebase/pi-desktop:Dev` at `6ec88e3fa365a971688b09f4face441b94b71c34`  
+**Code tested:** `a666660e25748f8c12611d9e1cc84cc3261f3b06`
+**Base:** `FaqFirebase/pi-desktop:Dev` at `6ec88e3fa365a971688b09f4face441b94b71c34`
 **Host:** macOS 27.0, Apple Silicon; Electron 43.8.3; Node 22.23.2.
 
 ## Automated checks
